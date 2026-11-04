@@ -3,6 +3,16 @@ Collection of Assignments for CSE 3000: Contemporary Issues in Computer Science 
 
 _Note_: Odd-numbered assignments are in HuskyCT, while even-numbered assignments are found in this repo and can be submitted to Gradescope via a Github connection.
 
+## Personal Statement on Ethics
+
+I am entering the CS workforce soon, and the ethical nightmare I most want to avoid is building something that harms people who never knew they were part of it. The course modules in this repo deal with these kinds of "nigthmares". The mods cover topics like models that never use a protected attribute but still produce biased outcomes through proxies like zip code, "anonymized" data can be linked back to real people, and weighing compute vs. the environment.
+
+From that, the value I hold is accountability to the people affected by what I build, especially those who have no say in it. I want to be able to explain a model's behavior, and I care how my work affects the people that use it, not only whether it scores well. I hold this value because code that I write won't just be graded, but other people will rely on it, and they will trust it without being able to check it.
+
+In practice, that means there are things I can't do. I can't relaease a model  without checking whether its outcomes differ across groups, and I can't call data "anonymous" without testing whether it can be re-identified through other ways. I also won't treat a strong accuracy number as a benchmark to show that something is fair, safe, or finished. Accuracy is an engineering goal, not an ethical one, and according to Chapter 5, these 2 things cannot be lumped together.
+
+To ensure I stick to this statement, I plan to build these checks into my workflow instead of trying to tack them onto the end of a project. I can use the things I learned in these homework assignemnts to help, such as auditing for bias with SHAP, attempting re-identification before releasing data, and considering the energy cost of the compute I use. Additionally I will also ask for differing perspectives from others to review my work. 
+
 ## Outline of Assignments
 
 ### Module 02: Bot Predictor
